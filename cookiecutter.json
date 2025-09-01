@@ -1,0 +1,41 @@
+{
+  "_copy_without_render": [
+    "*.o",
+    "*.exe",
+    "*.so",
+    "*.a",
+    "*.lib",
+    "*.obj",
+    "*.dll",
+    "*.png",
+    "*.jpg"
+  ],
+  "author": "Saeid Saati",
+  "project_name": "GDExtension Template",
+  "class_name": "HelloWorld",
+  "godot_version_only_major_and_minor": "4.4",
+  "godot_project_folder_name": "godot",
+  "class_name_file": "{{ cookiecutter.class_name.lower() }}",
+  "class_name_header_guard": "{{ cookiecutter.class_name.upper() }}",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+  "platform": [
+    "windows",
+    "linuxbsd",
+    "android",
+    "web",
+    "ios",
+    "macos"
+  ],
+  "arch": [
+    "auto",
+    "x86_64",
+    "x86_32",
+    "arm32",
+    "arm64",
+    "rv64",
+    "ppc32",
+    "ppc64",
+    "wasm32"
+  ],
+  "number_of_parallel_threads_for_compile": 12
+}
